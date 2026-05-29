@@ -85,7 +85,8 @@ ol {
 }
 
 .content__details {
-  flex: 1;
+  width: 399px;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -153,8 +154,9 @@ ol {
 .content__video-card-description-container {
   flex-grow: 1;
   margin-right: 10px;
+  overflow: hidden;
+  min-width: 0;
 }
-
 .search-form__fieldset-title {
   font-family: 'Fira Sans Condensed', 'Fira Sans', 'Arial', sans-serif;
   font-style: normal;
@@ -196,7 +198,7 @@ ol {
   font-size: 18px;
   line-height: 16px;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
