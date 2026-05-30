@@ -276,7 +276,7 @@ input:focus {
 }
 
 .button {
-  margin-top: 11px;
+  font-weight: 700;
   width: 194px;
   height: 34px;
   border: 1px solid #FFFFFF;
@@ -337,11 +337,7 @@ button:active {
   clip: rect(0 0 0 0);
 }
 
-.search-form__checkbox:focus-visible + .search-form__pseudo-checkbox {
+.search-form__label:focus-within {
   outline: 1px solid #FFFFFF;
   outline-offset: 2px;
-}
-
-.search-form__checkbox:focus {
-  outline: none;
 }
