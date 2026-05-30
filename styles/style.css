@@ -75,6 +75,7 @@ ol {
 
 .result {
   flex-shrink: 0;
+  margin-top: 60px;
 }
 
 .search-form {
@@ -219,6 +220,7 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif;
   appearance: none;
   margin-top: 5px;
+  font-size: 18px;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #FFFFFF;
